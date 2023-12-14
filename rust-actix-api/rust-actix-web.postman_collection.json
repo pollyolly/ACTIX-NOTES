@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "7cd37e29-dd28-4a37-a87a-1ae37d9927a6",
+		"name": "rust-actix-web",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9673928"
+	},
+	"item": [
+		{
+			"name": "get-entries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/todolist/entries",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"todolist",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post-entries",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Hello Mary\",\n    \"date\": 1665230864337\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/todolist/entries",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"todolist",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-entries",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Hello Rolly\",\n    \"date\": 1665230864337\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/todolist/entries/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"todolist",
+						"entries",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-entries",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Hello Rolly\",\n    \"date\": 1665230864337\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/todolist/entries/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"todolist",
+						"entries",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
