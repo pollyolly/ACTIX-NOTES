@@ -1,7 +1,7 @@
 ## ACTIX-NOTES
 
 ### Basic Usage
-app-folder/Cargo.toml
+rust-actix-web/Cargo.toml
 ```
 [package]
 name = "rust-actix-web"
@@ -11,7 +11,7 @@ edition = "2021"
 [dependencies]
 actix-web = "4"
 ```
-app-folder/src/main.rs
+rust-actix-web/src/main.rs
 ```vim
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 
