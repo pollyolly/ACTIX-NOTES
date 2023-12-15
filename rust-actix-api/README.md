@@ -13,5 +13,5 @@ delete: /todolist/entries/id
 ### Import PostMan Collection
 ```vim
 1. Open PostMan
-2. Import and drag and drop the file
+2. Import and drag and drop the file: rust-actix-web.postman_collection.json
 ```
